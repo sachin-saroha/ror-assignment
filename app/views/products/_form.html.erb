@@ -21,6 +21,14 @@
     <%= form.text_field :Cost, id: :product_Cost %>
   </div>
 
+
+  <div class="field">
+    <%= form.label :outofstock %>
+    <%= form.check_box :outofstock, id: :product_outofstock %>
+  </div>
+
+
+
   <div class="field">
     <%= form.label :Purpose %>
     <%= form.text_area :Purpose, id: :product_Purpose %>
