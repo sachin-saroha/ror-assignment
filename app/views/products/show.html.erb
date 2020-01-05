@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+<div class="tab">
+<p>
+  <strong>Item:</strong>
+  <%= @product.Item_id %>
+</p>
+
+<p>
+  <strong>Cost:</strong>
+  <%= @product.Cost %>
+</p>
+
+<p>
+  <strong>Purpose:</strong>
+  <%= @product.Purpose %>
+</p>
+</div>
+
+<%= link_to 'Edit', edit_product_path(@product) %> |
+<%= link_to 'Back', products_path %>
